@@ -1,0 +1,182 @@
+[
+    {
+      "RoomDescription": "Deluxe Single Room with City View",
+      "PricePerNight": 120,
+      "RoomSize": "25 sqm",
+      "Availability": true,
+      "image": ["deluxe_single_room_1.jpg", "deluxe_single_room_2.jpg"],
+      "SpecialOffers": [],
+      "RoomDetails": {
+        "Bed": "Queen bed",
+        "View": "City view",
+        "Occupancy": "1 adult",
+        "Bathroom": "Private bathroom with shower",
+        "Amenities": ["Flat-screen TV", "Mini-bar", "Free Wi-Fi"]
+      }
+    },
+    {
+      "RoomDescription": "Executive Suite with Sea View",
+      "PricePerNight": 300,
+      "RoomSize": "50 sqm",
+      "Availability": true,
+      "image": ["executive_suite_sea_view_1.jpg", "executive_suite_sea_view_2.jpg"],
+      "SpecialOffers": ["Complimentary breakfast"],
+      "RoomDetails": {
+        "Bed": "King bed",
+        "View": "Sea view",
+        "Occupancy": "2 adults",
+        "Bathroom": "En-suite bathroom with bathtub and separate shower",
+        "Amenities": ["Private balcony", "Living area", "Work desk"]
+      }
+    },
+    {
+      "RoomDescription": "Standard Double Room",
+      "PricePerNight": 150,
+      "RoomSize": "30 sqm",
+      "Availability": false,
+      "image": ["standard_double_room_1.jpg", "standard_double_room_2.jpg"],
+      "SpecialOffers": [],
+      "RoomDetails": {
+        "Bed": "Double bed",
+        "View": "No specific view",
+        "Occupancy": "2 adults",
+        "Bathroom": "Private bathroom with shower",
+        "Amenities": ["Flat-screen TV", "Mini-fridge", "Free Wi-Fi"]
+      }
+    },
+    {
+      "RoomDescription": "Family Suite with Garden View",
+      "PricePerNight": 400,
+      "RoomSize": "60 sqm",
+      "Availability": true,
+      "image": ["family_suite_garden_view_1.jpg", "family_suite_garden_view_2.jpg"],
+      "SpecialOffers": ["50% off on third night"],
+      "RoomDetails": {
+        "Bed": "King bed and two single beds",
+        "View": "Garden view",
+        "Occupancy": "4 adults",
+        "Bathroom": "Two bathrooms, one with bathtub and one with shower",
+        "Amenities": ["Private terrace", "Living area", "Kitchenette"]
+      }
+    },
+    {
+      "RoomDescription": "Luxury Penthouse with Private Pool",
+      "PricePerNight": 800,
+      "RoomSize": "100 sqm",
+      "Availability": true,
+      "image": ["luxury_penthouse_private_pool_1.jpg", "luxury_penthouse_private_pool_2.jpg"],
+      "SpecialOffers": ["Complimentary spa session"],
+      "RoomDetails": {
+        "Bed": "King bed",
+        "View": "Panoramic view",
+        "Occupancy": "2 adults",
+        "Bathroom": "En-suite bathroom with Jacuzzi and separate shower",
+        "Amenities": ["Private pool", "Spacious lounge", "Dining area"]
+      }
+    },
+    {
+      "RoomDescription": "Standard Twin Room",
+      "PricePerNight": 160,
+      "RoomSize": "32 sqm",
+      "Availability": true,
+      "image": ["standard_twin_room_1.jpg", "standard_twin_room_2.jpg"],
+      "SpecialOffers": [],
+      "RoomDetails": {
+        "Bed": "Two single beds",
+        "View": "No specific view",
+        "Occupancy": "2 adults",
+        "Bathroom": "Private bathroom with shower",
+        "Amenities": ["Flat-screen TV", "Mini-fridge", "Free Wi-Fi"]
+      }
+    },
+    {
+      "RoomDescription": "Deluxe Suite with Mountain View",
+      "PricePerNight": 350,
+      "RoomSize": "55 sqm",
+      "Availability": true,
+      "image": ["deluxe_suite_mountain_view_1.jpg", "deluxe_suite_mountain_view_2.jpg"],
+      "SpecialOffers": [],
+      "RoomDetails": {
+        "Bed": "King bed",
+        "View": "Mountain view",
+        "Occupancy": "2 adults",
+        "Bathroom": "En-suite bathroom with bathtub and separate shower",
+        "Amenities": ["Private balcony", "Living area", "Work desk"]
+      }
+    },
+    {
+      "RoomDescription": "Economy Single Room",
+      "PricePerNight": 80,
+      "RoomSize": "20 sqm",
+      "Availability": true,
+      "image": ["economy_single_room_1.jpg", "economy_single_room_2.jpg"],
+      "SpecialOffers": ["10% off for bookings made 30 days in advance"],
+      "RoomDetails": {
+        "Bed": "Single bed",
+        "View": "No specific view",
+        "Occupancy": "1 adult",
+        "Bathroom": "Private bathroom with shower",
+        "Amenities": ["TV", "Desk", "Free Wi-Fi"]
+      }
+    },
+    {
+      "RoomDescription": "Junior Suite with Pool Access",
+      "PricePerNight": 250,
+      "RoomSize": "45 sqm",
+      "Availability": false,
+      "image": ["junior_suite_pool_access_1.jpg", "junior_suite_pool_access_2.jpg"],
+      "SpecialOffers": [],
+      "RoomDetails": {
+        "Bed": "King bed",
+        "View": "Pool view",
+        "Occupancy": "2 adults",
+        "Bathroom": "En-suite bathroom with bathtub and shower",
+        "Amenities": ["Pool access", "Living area", "Private terrace"]
+      }
+    },
+    {
+      "RoomDescription": "Executive Double Room",
+      "PricePerNight": 180,
+      "RoomSize": "35 sqm",
+      "Availability": true,
+      "image": ["executive_double_room_1.jpg", "executive_double_room_2.jpg"],
+      "SpecialOffers": ["Free airport shuttle service"],
+      "RoomDetails": {
+        "Bed": "Queen bed",
+        "View": "No specific view",
+        "Occupancy": "2 adults",
+        "Bathroom": "Private bathroom with shower",
+        "Amenities": ["Flat-screen TV", "Mini-fridge", "Free Wi-Fi"]
+      }
+    },
+    {
+      "RoomDescription": "Presidential Suite",
+      "PricePerNight": 1000,
+      "RoomSize": "120 sqm",
+      "Availability": true,
+      "image": ["presidential_suite_1.jpg", "presidential_suite_2.jpg"],
+      "SpecialOffers": ["Exclusive private dining experience"],
+      "RoomDetails": {
+        "Bed": "King bed",
+        "View": "Panoramic view",
+        "Occupancy": "2 adults",
+        "Bathroom": "Luxurious en-suite bathroom with Jacuzzi, sauna, and steam room",
+        "Amenities": ["Private elevator", "Grand living and dining area", "Personal butler"]
+      }
+    },
+    {
+      "RoomDescription": "Family Room with Bunk Beds",
+      "PricePerNight": 200,
+      "RoomSize": "40 sqm",
+      "Availability": true,
+      "image": ["family_room_bunk_beds_1.jpg", "family_room_bunk_beds_2.jpg"],
+      "SpecialOffers": [],
+      "RoomDetails": {
+        "Bed": "Queen bed and bunk beds",
+        "View": "No specific view",
+        "Occupancy": "4 adults",
+        "Bathroom": "Private bathroom with shower",
+        "Amenities": ["Flat-screen TV", "Mini-fridge", "Free Wi-Fi"]
+      }
+    }
+  ]

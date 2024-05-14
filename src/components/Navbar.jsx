@@ -1,7 +1,19 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from "../assets/logo.jpg";
+import { useContext } from "react";
+import { AuthContext } from "../providers/AuthProvider";
 
 const Navbar = () => {
+  const { user, logout } = useContext(AuthContext);
+
+  const handleLogout = () => {
+    logout()
+      .then(() => {
+        console.log("user logged out");
+      })
+      .catch((error) => console.error(error));
+  };
+
   const navItems = (
     <>
       <li>
@@ -55,14 +67,40 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="navbar-center">
-        <img className="w-28" src={logo} alt="" />
+        <img className="w-28 drop-shadow-2xl" src={logo} alt="" />
       </div>
 
       <div className="navbar-end">
-        <div className=" hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">{navItems}</ul>
+        <div className=" hidden  lg:flex">
+          <ul className="menu menu-horizontal px-1 bg-cyan-900 mr-3 drop-shadow-2xl">
+            {navItems}
+          </ul>
         </div>
-        <a className="btn">Button</a>
+        <div>
+          {user ? (
+            <>
+              <div
+                className="tooltip user-profile mr-2 md:mr-4"
+                data-tip={user.displayName}
+              >
+                <img
+                  className="profile-picture w-12 h-12 rounded-full"
+                  src={user.photoURL}
+                  alt={user.displayName}
+                />
+              </div>
+              <button className="btn text-sky-900" onClick={handleLogout}>
+                LogOut
+              </button>
+            </>
+          ) : (
+            <>
+              <NavLink to="/login">
+                <button className="btn text-sky-900">Login</button>
+              </NavLink>
+            </>
+          )}
+        </div>
       </div>
     </div>
   );

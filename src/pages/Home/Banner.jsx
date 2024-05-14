@@ -24,7 +24,7 @@ const Banner = () => {
   };
 
   return (
-    <div className="mb-10 mt-10 h-96 hight">
+    <div className="mb-10  h-96 hight ">
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -40,23 +40,107 @@ const Banner = () => {
         onAutoPlayTime={onAutoPlayTime}
         className="mySwiper "
       >
-        <SwiperSlide>
-          <img src={slide1} alt="" />
+        <SwiperSlide
+          className="bg-cover bg-no-repeat bg-center"
+          style={{
+            backgroundImage: `url(${slide1})`,
+            backgroundPosition: "center ",
+            justifyContent: "center",
+            backgroundRepeat: "no-repeat",
+            backgroundAttachment: "fixed",
+            backgroundSize: "cover",
+          }}
+        >
+          <p className="text-xl lg:text-2xl font-bold text-white p-6 drop-shadow-lg  w-2/3 bg-cyan-900 bg-opacity-60">
+            Discover elegance and sophistication in our Presidential Suite,
+            featuring opulent furnishings, exclusive amenities, and personalized
+            service for an unforgettable stay.
+          </p>
         </SwiperSlide>
-        <SwiperSlide>
-          <img src={slide2} alt="" />
+        <SwiperSlide
+          className="bg-cover bg-no-repeat bg-center"
+          style={{
+            backgroundImage: `url(${slide2})`,
+            backgroundPosition: "center ",
+            justifyContent: "center",
+            backgroundRepeat: "no-repeat",
+            backgroundAttachment: "fixed",
+            backgroundSize: "cover",
+          }}
+        >
+          <p className="text-xl lg:text-2xl font-bold text-white p-6 drop-shadow-lg w-2/3 bg-cyan-900 bg-opacity-60">
+            Indulge in luxury with our Executive Suite, offering breathtaking
+            sea views, a spacious living area, and a private balcony for your
+            ultimate relaxation.
+          </p>
         </SwiperSlide>
-        <SwiperSlide>
-          <img src={slide3} alt="" />
+        <SwiperSlide
+          className="bg-cover bg-no-repeat bg-center"
+          style={{
+            backgroundImage: `url(${slide3})`,
+            backgroundPosition: "center ",
+            justifyContent: "center",
+            backgroundRepeat: "no-repeat",
+            backgroundAttachment: "fixed",
+            backgroundSize: "cover",
+          }}
+        >
+          <p className="text-xl lg:text-2xl font-bold text-white p-6 drop-shadow-lg w-2/3 bg-cyan-900 bg-opacity-60">
+            Experience comfort and convenience in our Standard Double Room,
+            featuring a cozy atmosphere, modern amenities, and a tranquil
+            ambiance for a perfect getaway.
+          </p>
         </SwiperSlide>
-        <SwiperSlide>
-          <img src={slide4} alt="" />
+        <SwiperSlide
+          className="bg-cover bg-no-repeat bg-center"
+          style={{
+            backgroundImage: `url(${slide4})`,
+            backgroundPosition: "center ",
+            justifyContent: "center",
+            backgroundRepeat: "no-repeat",
+            backgroundAttachment: "fixed",
+            backgroundSize: "cover",
+          }}
+        >
+          <p className="text-xl lg:text-2xl font-bold text-white p-6 drop-shadow-lg w-2/3 bg-cyan-900 bg-opacity-60">
+            Escape to serenity in our Deluxe Single Room with City View,
+            boasting stylish décor, a comfortable queen bed, and panoramic views
+            of the bustling city skyline.
+          </p>
         </SwiperSlide>
-        <SwiperSlide>
-          <img src={slide5} alt="" />
+        <SwiperSlide
+          className="bg-cover bg-no-repeat bg-center"
+          style={{
+            backgroundImage: `url(${slide5})`,
+            backgroundPosition: "center ",
+            justifyContent: "center",
+            backgroundRepeat: "no-repeat",
+            backgroundAttachment: "fixed",
+            backgroundSize: "cover",
+          }}
+        >
+          <p className="text-xl lg:text-2xl font-bold text-white p-6 drop-shadow-lg w-2/3 bg-cyan-900 bg-opacity-60">
+            Treat your family to a memorable stay in our Family Suite with
+            Garden View, complete with spacious accommodations, a private
+            terrace, and easy access to lush greenery.
+          </p>
         </SwiperSlide>
-        <SwiperSlide>
-          <img src={slide6} alt="" />
+        <SwiperSlide
+          className="bg-cover bg-no-repeat bg-center"
+          style={{
+            backgroundImage: `url(${slide6})`,
+            backgroundPosition: "center ",
+            justifyContent: "center",
+            backgroundRepeat: "no-repeat",
+            backgroundAttachment: "fixed",
+            backgroundSize: "cover",
+          }}
+        >
+          <p className="text-xl lg:text-2xl font-bold text-white p-6 drop-shadow-lg w-2/3 bg-cyan-900 bg-opacity-60">
+            Unwind in style in our Luxury Penthouse with Private Pool, offering
+            unparalleled luxury with a king-size bed, a private pool, and
+            breathtaking panoramic views.
+          </p>
         </SwiperSlide>
 
         <div

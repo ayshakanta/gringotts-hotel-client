@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 
 const Root = () => {
   return (
-    <div className="font-lora">
+    <div>
       <Navbar></Navbar>
       <Outlet></Outlet>
       <Footer></Footer>
