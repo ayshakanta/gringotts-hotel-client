@@ -4,7 +4,7 @@
       "PricePerNight": 120,
       "RoomSize": "25 sqm",
       "Availability": true,
-      "image": ["deluxe_single_room_1.jpg", "deluxe_single_room_2.jpg"],
+      "image": "https://i.ibb.co/6X7bSCK/room5.jpg",
       "SpecialOffers": [],
       "RoomDetails": {
         "Bed": "Queen bed",
@@ -19,7 +19,7 @@
       "PricePerNight": 300,
       "RoomSize": "50 sqm",
       "Availability": true,
-      "image": ["executive_suite_sea_view_1.jpg", "executive_suite_sea_view_2.jpg"],
+      "image": "https://i.ibb.co/DrmCV4F/room17.jpg",
       "SpecialOffers": ["Complimentary breakfast"],
       "RoomDetails": {
         "Bed": "King bed",
@@ -34,7 +34,7 @@
       "PricePerNight": 150,
       "RoomSize": "30 sqm",
       "Availability": false,
-      "image": ["standard_double_room_1.jpg", "standard_double_room_2.jpg"],
+      "image":"https://i.ibb.co/94YVTNW/room9.jpg",
       "SpecialOffers": [],
       "RoomDetails": {
         "Bed": "Double bed",
@@ -49,7 +49,7 @@
       "PricePerNight": 400,
       "RoomSize": "60 sqm",
       "Availability": true,
-      "image": ["family_suite_garden_view_1.jpg", "family_suite_garden_view_2.jpg"],
+      "image": "https://i.ibb.co/wLNKtZ2/room11.jpg",
       "SpecialOffers": ["50% off on third night"],
       "RoomDetails": {
         "Bed": "King bed and two single beds",
@@ -64,7 +64,7 @@
       "PricePerNight": 800,
       "RoomSize": "100 sqm",
       "Availability": true,
-      "image": ["luxury_penthouse_private_pool_1.jpg", "luxury_penthouse_private_pool_2.jpg"],
+      "image": "https://i.ibb.co/vjmbJQ6/room19.jpg",
       "SpecialOffers": ["Complimentary spa session"],
       "RoomDetails": {
         "Bed": "King bed",
@@ -79,7 +79,7 @@
       "PricePerNight": 160,
       "RoomSize": "32 sqm",
       "Availability": true,
-      "image": ["standard_twin_room_1.jpg", "standard_twin_room_2.jpg"],
+      "image": "https://i.ibb.co/R3hBLf7/room12.jpg",
       "SpecialOffers": [],
       "RoomDetails": {
         "Bed": "Two single beds",
@@ -94,7 +94,7 @@
       "PricePerNight": 350,
       "RoomSize": "55 sqm",
       "Availability": true,
-      "image": ["deluxe_suite_mountain_view_1.jpg", "deluxe_suite_mountain_view_2.jpg"],
+      "image": "https://i.ibb.co/SPrTPs8/room15.jpg",
       "SpecialOffers": [],
       "RoomDetails": {
         "Bed": "King bed",
@@ -109,7 +109,7 @@
       "PricePerNight": 80,
       "RoomSize": "20 sqm",
       "Availability": true,
-      "image": ["economy_single_room_1.jpg", "economy_single_room_2.jpg"],
+      "image": "https://i.ibb.co/4fcPRL2/room18.jpg",
       "SpecialOffers": ["10% off for bookings made 30 days in advance"],
       "RoomDetails": {
         "Bed": "Single bed",
@@ -124,7 +124,7 @@
       "PricePerNight": 250,
       "RoomSize": "45 sqm",
       "Availability": false,
-      "image": ["junior_suite_pool_access_1.jpg", "junior_suite_pool_access_2.jpg"],
+      "image": "https://i.ibb.co/SmM0b93/room20.jpg",
       "SpecialOffers": [],
       "RoomDetails": {
         "Bed": "King bed",
@@ -139,7 +139,7 @@
       "PricePerNight": 180,
       "RoomSize": "35 sqm",
       "Availability": true,
-      "image": ["executive_double_room_1.jpg", "executive_double_room_2.jpg"],
+      "image": "https://i.ibb.co/M6W1Spx/room13.jpg",
       "SpecialOffers": ["Free airport shuttle service"],
       "RoomDetails": {
         "Bed": "Queen bed",
@@ -154,7 +154,7 @@
       "PricePerNight": 1000,
       "RoomSize": "120 sqm",
       "Availability": true,
-      "image": ["presidential_suite_1.jpg", "presidential_suite_2.jpg"],
+      "image": "https://i.ibb.co/TbVCnV4/room14.jpg",
       "SpecialOffers": ["Exclusive private dining experience"],
       "RoomDetails": {
         "Bed": "King bed",
@@ -169,7 +169,7 @@
       "PricePerNight": 200,
       "RoomSize": "40 sqm",
       "Availability": true,
-      "image": ["family_room_bunk_beds_1.jpg", "family_room_bunk_beds_2.jpg"],
+      "image": "https://i.ibb.co/xX5N7TW/room3.jpg",
       "SpecialOffers": [],
       "RoomDetails": {
         "Bed": "Queen bed and bunk beds",

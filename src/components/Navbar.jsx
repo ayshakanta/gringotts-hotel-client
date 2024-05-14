@@ -20,7 +20,7 @@ const Navbar = () => {
         <Link to="/">Home</Link>
       </li>
       <li>
-        <Link>Rooms</Link>
+        <Link to="/rooms">Rooms</Link>
       </li>
       <li>
         <Link>My Bookings</Link>
@@ -79,19 +79,27 @@ const Navbar = () => {
         <div>
           {user ? (
             <>
-              <div
-                className="tooltip user-profile mr-2 md:mr-4"
-                data-tip={user.displayName}
-              >
-                <img
-                  className="profile-picture w-12 h-12 rounded-full"
-                  src={user.photoURL}
-                  alt={user.displayName}
-                />
+              <div className="dropdown dropdown-hover">
+                <div
+                  tabIndex={0}
+                  className="tooltip user-profile mr-2 md:mr-4 btn m-1 bg-cyan-950 border-none"
+                  data-tip={user.displayName}
+                >
+                  <img
+                    className="profile-picture  w-12 h-12 rounded-full "
+                    src={user.photoURL}
+                    alt={user.displayName}
+                  />
+                </div>
+
+                <button
+                  tabIndex={0}
+                  className="btn text-sky-900 dropdown-content  menu z-[2]  shadow  rounded-box "
+                  onClick={handleLogout}
+                >
+                  LogOut
+                </button>
               </div>
-              <button className="btn text-sky-900" onClick={handleLogout}>
-                LogOut
-              </button>
             </>
           ) : (
             <>
