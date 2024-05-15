@@ -22,9 +22,11 @@ const Navbar = () => {
       <li>
         <Link to="/rooms">Rooms</Link>
       </li>
+
       <li>
-        <Link>My Bookings</Link>
+        <Link to="/myBookings">My Bookings</Link>
       </li>
+
       <li>
         <Link>About Us</Link>
       </li>
@@ -67,7 +69,7 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="navbar-center">
-        <img className="w-28 drop-shadow-2xl" src={logo} alt="" />
+        <img className="w-28 " src={logo} alt="" />
       </div>
 
       <div className="navbar-end">
