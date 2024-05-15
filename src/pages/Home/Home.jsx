@@ -3,7 +3,7 @@ import FeaturedRooms from "./FeaturedRooms";
 
 const Home = () => {
   return (
-    <div>
+    <div className="min-h-screen">
       <Banner></Banner>
       <FeaturedRooms></FeaturedRooms>
     </div>
