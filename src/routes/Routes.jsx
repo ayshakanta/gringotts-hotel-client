@@ -8,6 +8,7 @@ import Rooms from "../pages/Rooms/Rooms";
 import RoomDetails from "../components/RoomDetails";
 import MyBookings from "../pages/MyBookings/MyBookings";
 import PrivateRoute from "./PrivateRoute";
+import Reviews from "../components/Reviews";
 
 const router = createBrowserRouter([
   {
@@ -46,6 +47,14 @@ const router = createBrowserRouter([
         element: (
           <PrivateRoute>
             <MyBookings></MyBookings>
+          </PrivateRoute>
+        ),
+      },
+      {
+        path: "reviews/:id",
+        element: (
+          <PrivateRoute>
+            <Reviews></Reviews>
           </PrivateRoute>
         ),
       },

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const BookingRow = ({ booking, handleCancel, handleUpdate }) => {
   const { _id, title, image, price, date, customerName } = booking;
 
@@ -41,7 +43,9 @@ const BookingRow = ({ booking, handleCancel, handleUpdate }) => {
         </button>
       </th>
       <th>
-        <button className="btn btn-ghost btn-xs">Reviews</button>
+        <Link to={`/reviews/${_id}`}>
+          <button className="btn btn-ghost btn-xs">Reviews</button>
+        </Link>
       </th>
     </tr>
   );
