@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import news from "../../assets/images/newsletter.jpg";
 
 const NewsLetter = () => {
@@ -30,12 +31,14 @@ const NewsLetter = () => {
             early.
           </p>
           <div>
-            <h2 className="text-xl text-cyan-900">Subscribe:</h2>
             <input
               type="text"
-              placeholder="Type here"
+              placeholder="Your Email"
               className="input input-bordered w-full max-w-xs"
             />
+            <Link to="/login">
+              <button className="text-xl btn text-cyan-900">Subscribe</button>
+            </Link>
           </div>
         </div>
         <div className="flex-1">
