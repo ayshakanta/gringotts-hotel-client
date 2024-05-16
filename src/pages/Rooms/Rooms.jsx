@@ -5,7 +5,7 @@ const Rooms = () => {
   const [rooms, setRooms] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/rooms")
+    fetch(`${import.meta.env.VITE_API_URL}/rooms`)
       .then((res) => res.json())
       .then((data) => setRooms(data));
   });

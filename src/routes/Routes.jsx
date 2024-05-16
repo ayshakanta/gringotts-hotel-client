@@ -39,7 +39,7 @@ const router = createBrowserRouter([
           </PrivateRoute>
         ),
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/rooms/${params.id}`),
+          fetch(`${import.meta.env.VITE_API_URL}/rooms/${params.id}`),
       },
       {
         path: "myBookings",

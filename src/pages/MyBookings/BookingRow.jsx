@@ -1,4 +1,4 @@
-const BookingRow = ({ booking, handleCancel }) => {
+const BookingRow = ({ booking, handleCancel, handleUpdate }) => {
   const { _id, title, image, price, date, customerName } = booking;
 
   return (
@@ -19,7 +19,18 @@ const BookingRow = ({ booking, handleCancel }) => {
       <td>{customerName}</td>
       <td>{date}</td>
       <th>
-        <button className="btn btn-ghost btn-xs">Update Date</button>
+        <div>
+          <form onSubmit={(event) => handleUpdate(event, _id)}>
+            <input
+              type="date"
+              name="date"
+              className="input input-bordered"
+              required
+            />
+            <br />
+            <button className="btn btn-ghost btn-xs">Update Date</button>
+          </form>
+        </div>
       </th>
       <th>
         <button

@@ -7,11 +7,11 @@ import router from "./routes/Routes.jsx";
 import AuthProvider from "./providers/AuthProvider.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <div className="font-lora">
-    <React.StrictMode>
+  <React.StrictMode>
+    <div className="font-lora">
       <AuthProvider>
         <RouterProvider router={router} />
       </AuthProvider>
-    </React.StrictMode>
-  </div>
+    </div>
+  </React.StrictMode>
 );
