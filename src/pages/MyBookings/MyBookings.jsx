@@ -14,6 +14,25 @@ const MyBookings = () => {
       .then((res) => res.json())
       .then((data) => setBookings(data));
   }, []);
+
+  const handleCancel = (id) => {
+    const proceed = confirm("Are you sure you want to cancel the booking?");
+    if (proceed) {
+      fetch(`http://localhost:5000/bookings/${id}`, {
+        method: "DELETE",
+      })
+        .then((res) => res.json())
+        .then((data) => {
+          console.log(data);
+          if (data.deletedCount > 0) {
+            alert("Canceled successfully");
+            const remaining = bookings.filter((booking) => booking._id !== id);
+            setBookings(remaining);
+          }
+        });
+    }
+  };
+
   return (
     <div className="min-h-screen lg:mx-20 mt-20">
       <h2 className="text-3xl font-bold text-cyan-900 text-center pb-10">
@@ -34,7 +53,11 @@ const MyBookings = () => {
           </thead>
           <tbody>
             {bookings.map((booking) => (
-              <BookingRow key={booking._id} booking={booking}></BookingRow>
+              <BookingRow
+                key={booking._id}
+                booking={booking}
+                handleCancel={handleCancel}
+              ></BookingRow>
             ))}
           </tbody>
         </table>

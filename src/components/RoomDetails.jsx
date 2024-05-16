@@ -13,6 +13,7 @@ const RoomDetails = () => {
     PricePerNight,
     RoomSize,
     SpecialOffers,
+    insertedId,
   } = room;
 
   const { user } = useContext(AuthContext);
@@ -124,9 +125,36 @@ const RoomDetails = () => {
               />
             </div>
             <div className="form-control mt-6">
-              <button className="btn bg-amber-700 text-white">Book Now</button>
+              {insertedId ? (
+                <span>Unavailable</span>
+              ) : (
+                <button
+                  className="btn bg-amber-700 text-white"
+                  onClick={() =>
+                    document.getElementById("my_modal_5").showModal()
+                  }
+                >
+                  Book Now
+                </button>
+              )}
             </div>
           </form>
+          <dialog
+            id="my_modal_5"
+            className="modal modal-bottom sm:modal-middle"
+          >
+            <div className="modal-box">
+              <h3 className="font-bold text-lg">{RoomDescription}</h3>
+              <p className="py-4">{PricePerNight}</p>
+
+              <div className="modal-action">
+                <form method="dialog">
+                  {/* if there is a button in form, it will close the modal */}
+                  <button className="btn">Confirm</button>
+                </form>
+              </div>
+            </div>
+          </dialog>
         </div>
       </div>
     </div>

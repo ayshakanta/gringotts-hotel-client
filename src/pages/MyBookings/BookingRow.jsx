@@ -1,14 +1,6 @@
-const BookingRow = ({ booking }) => {
+const BookingRow = ({ booking, handleCancel }) => {
   const { _id, title, image, price, date, customerName } = booking;
 
-  const handleCancel = (id) => {
-    const proceed = confirm("Are you sure you want to cancel the booking?");
-    if (proceed) {
-      fetch(``)
-        .then((res) => res.json())
-        .then((data) => console.log(data));
-    }
-  };
   return (
     <tr>
       <td>
